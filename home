@@ -1,0 +1,88 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vets2PM MPLW Colorado Springs | Veteran Career Transition</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Vets2PM CO Springs</h1>
+            <nav id="navbar">
+                <a href="index.html">Home</a>
+                <a href="programs.html">Programs</a>
+                <a href="partnerships.html">Partnerships</a>
+                <a href="admissions.html">Admissions</a>
+                <a href="about.html">About Us</a>
+                <a href="#contact" class="cta-button">Contact Us</a>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                [cite_start]<h2>Transition to a High-Value Career in Colorado Springs [cite: 3, 59]</h2>
+                [cite_start]<p>Vets2PM is expanding its Master Project Leadership Workshop (MPLW) to one of the largest military hubs in the U.S.[cite: 61]. [cite_start]We provide accredited career pathways and SkillBridge services in Project Management, Agile, HR, and Cybersecurity[cite: 63, 64].</p>
+                <a href="programs.html" class="btn primary-btn">Explore Our Pathways</a>
+            </div>
+        </section>
+
+        <section id="value-props" class="three-col-grid">
+            <div class="container">
+                <h3>Our Core Benefits</h3>
+                <div class="grid-item">
+                    <h4>Career Pathways</h4>
+                    [cite_start]<p>Deliver accredited career pathways in PMP/CAPM, Agile, HR, and Cybersecurity, leveraging Vets2PM's proven high pass rates[cite: 7, 120, 170].</p>
+                </div>
+                <div class="grid-item">
+                    <h4>SkillBridge Integration</h4>
+                    [cite_start]<p>Coordinate SkillBridge cohorts with local employer hiring pipelines and internship programs[cite: 74, 128].</p>
+                </div>
+                <div class="grid-item">
+                    <h4>Local & In-Person</h4>
+                    [cite_start]<p>In-person training, mentorship, and on-site hiring events in Colorado Springs, supporting local workforce goals[cite: 75, 113, 118].</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="impact" class="dark-section">
+            <div class="container">
+                <h3>Colorado Springs Market Opportunity</h3>
+                [cite_start]<p>With an annual DD214 issuance of 6,000–7,000 from local installations, there is a clear and quantifiable demand for accredited transition and placement services[cite: 69, 70, 83].</p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">70-85%</span>
+                        [cite_start]<p>Target Job Placement Rate for graduates [cite: 30, 239]</p>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">20+</span>
+                        [cite_start]<p>Target Employer Partnerships in Year 1 [cite: 39, 240]</p>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">$863K+</span>
+                        [cite_start]<p>Projected First-Year Revenue (Low Estimate) [cite: 88, 248]</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <p>&copy; 2026 Vets2PM MPLW Colorado Springs. All Rights Reserved. [cite_start]Fully operational by Q3 CY26[cite: 248].</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
