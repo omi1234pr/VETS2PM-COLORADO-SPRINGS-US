@@ -1,0 +1,10 @@
+script.js
+  document.addEventListener('DOMContentLoaded', () => {
+    const mobileMenu = document.getElementById('mobile-menu');
+    const navbar = document.getElementById('navbar');
+
+    mobileMenu.addEventListener('click', () => {
+        navbar.classList.toggle('active');
+        mobileMenu.classList.toggle('open');
+    });
+});
