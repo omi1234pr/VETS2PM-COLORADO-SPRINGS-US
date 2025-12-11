@@ -1,0 +1,125 @@
+admissions.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions & Funding Pathways | Vets2PM CO Springs</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Vets2PM CO Springs</h1>
+            <nav id="navbar">
+                <a href="index.html">Home</a>
+                <a href="programs.html">Programs</a>
+                <a href="partnerships.html">Partnerships</a>
+                <a href="admissions.html">Admissions</a>
+                <a href="about.html">About Us</a>
+                <a href="#contact" class="cta-button">Contact Us</a>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="admissions-hero" class="hero-section" style="padding: 4rem 0;">
+            <div class="container">
+                <h2>Your Clear Path to Enrollment and Career Funding</h2>
+                <p>We provide a streamlined application process and guide you through maximizing your available veteran benefits, including the Post-9/11 GI Bill and SkillBridge.</p>
+                <a href="#apply" class="btn primary-btn">Start the Enrollment Process</a>
+            </div>
+        </section>
+
+        <section id="eligibility" class="section-padding">
+            <div class="container">
+                <h3>Who Should Apply? (Target Customer)</h3>
+                <p>Our program is designed specifically for military personnel seeking to transition into high-paying, professional careers in Project Management and related fields.</p>
+                
+                <div class="three-col-grid">
+                    <div class="grid-item">
+                        <h4>Transitioning Service Members</h4>
+                        <p>Active-duty personnel eligible for DoD SkillBridge seeking internships before separation from Fort Carson, Peterson SFB, or Schriever SFB.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h4>Veterans & Spouses</h4>
+                        <p>Post-separation veterans and military spouses looking to utilize GI Bill benefits (Chapter 33) to upskill or re-career.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h4>Career Changers</h4>
+                        <p>Individuals with military experience seeking formal PMP or Agile certification to enhance their resume and earning potential.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="funding" class="dark-section">
+            <div class="container">
+                <h3>Primary Funding & Benefits Pathways</h3>
+                <p>The **MPLW training program costs $8,999 per student**. We specialize in helping you leverage government benefits to cover the cost.</p>
+                
+                <div class="funding-options" style="text-align: left; margin-top: 30px;">
+                    <h4>Post-9/11 GI Bill (Chapter 33)</h4>
+                    <ul>
+                        <li><strong>Primary Funding Source:</strong> The Post-9/11 GI Bill is the most common and effective way to fund the entire MPLW training.</li>
+                        <li><strong>Benefits:</strong> Covers tuition and fees, and may include a monthly housing allowance (MHA) if eligible.</li>
+                        <li><strong>Action:</strong> We help verify your Certificate of Eligibility (COE) and submit the required VA enrollment paperwork.</li>
+                    </ul>
+                    
+                    <h4 style="margin-top: 20px;">DoD SkillBridge Program</h4>
+                    <ul>
+                        <li><strong>Benefit:</strong> Allows active-duty service members (within 180 days of separation) to participate in training full-time at no cost while still receiving military pay.</li>
+                        <li><strong>Action:</strong> We manage cohort coordination and partnership agreements with local installations, providing approved training tracks.</li>
+                    </ul>
+                    
+                    <h4 style="margin-top: 20px;">Other Funding Options</h4>
+                    <ul>
+                        <li>Workforce Innovation and Opportunity Act (WIOA) Grants</li>
+                        <li>Employer-Funded Training/Tuition Assistance</li>
+                        <li>Military Spouse Scholarships and Corporate Sponsorships</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="apply" class="section-padding">
+            <div class="container" style="max-width: 800px; text-align: center;">
+                <h3>Three Steps to Enrollment</h3>
+                <ol style="text-align: left; margin: 30px auto; max-width: 500px;">
+                    <li>**Contact Us:** Reach out to our local Colorado Springs team for an initial consultation to confirm your eligibility and identify your desired career pathway.</li>
+                    <li>**Confirm Funding:** We verify your GI Bill eligibility or SkillBridge approval status.</li>
+                    <li>**Start Class:** Enroll in the next available MPLW cohort and begin your training! **First Cohort Projected Start: Q3 CY26 (July 2026)**</li>
+                </ol>
+                
+                <a href="#contact" class="btn primary-btn" style="width: 100%; max-width: 400px;">Begin Your Application Now</a>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <p>&copy; 2026 Vets2PM MPLW Colorado Springs. All Rights Reserved. Fully operational by Q3 CY26.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Re-using the mobile menu script from index.html
+        document.addEventListener('DOMContentLoaded', () => {
+            const mobileMenu = document.getElementById('mobile-menu');
+            const navbar = document.getElementById('navbar');
+            mobileMenu.addEventListener('click', () => {
+                navbar.classList.toggle('active');
+                mobileMenu.classList.toggle('open');
+            });
+        });
+    </script>
+</body>
+</html>
