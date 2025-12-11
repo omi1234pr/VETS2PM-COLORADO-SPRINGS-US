@@ -1,0 +1,123 @@
+about.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Vets2PM CO Springs MPLW</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Vets2PM CO Springs</h1>
+            <nav id="navbar">
+                <a href="index.html">Home</a>
+                <a href="programs.html">Programs</a>
+                <a href="partnerships.html">Partnerships</a>
+                <a href="admissions.html">Admissions</a>
+                <a href="about.html">About Us</a>
+                <a href="#contact" class="cta-button">Contact Us</a>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about-hero" class="hero-section" style="padding: 4rem 0;">
+            <div class="container">
+                <h2>Veteran-Founded, Mission-Focused</h2>
+                <p>We are establishing a fully operational Vets2PM hub in Colorado Springs, driven by a clear mission to bridge the gap between military service and high-value civilian careers.</p>
+            </div>
+        </section>
+
+        <section id="mission-strategy" class="section-padding">
+            <div class="container">
+                <h3>Our Strategic Mission and Timeline</h3>
+                <div class="two-col-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 30px; text-align: left;">
+                    <div>
+                        <h4>The Business Case</h4>
+                        <p>Colorado's military footprint generates 5,000–7,000 annual DD214s, rising to ~7,500 by 2026. This presents a critical market need for a centralized, accredited transition service. Our goal is to capture ~1.6% of this transitioning population in the first year.</p>
+                        <p style="margin-top: 15px;">**Projected Revenue (Year 1):** Between **$863,904** (low estimate) and **$1,007,888** (high estimate), based on student enrollment projections.</p>
+                    </div>
+                    <div>
+                        <h4>Key Project Deliverables (Q3 CY26)</h4>
+                        <ul>
+                            <li>Securing a physical facility in Colorado Springs.</li>
+                            <li>Hiring local staff and certified instructor cadre.</li>
+                            <li>Establishing initial employer hiring pipelines.</li>
+                            <li>Executing partnership agreements with at least two key military installation TAPs.</li>
+                            <li>**Launch of First In-Person Cohort:** July 2026.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="success-criteria" class="dark-section">
+            <div class="container">
+                <h3>Criteria for Measuring Success</h3>
+                <p>Our program’s success is measured by the immediate and long-term impact on veterans and the local economy.</p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">90%+</span>
+                        <p>Satisfaction from students and employer partners</p>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">2</span>
+                        <p>Formal TAP Partnership Agreements secured</p>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">70-85%</span>
+                        <p>Target job placement rate for graduates</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-details" class="section-padding">
+            <div class="container">
+                <h3>Contact Our Colorado Springs Office</h3>
+                <p>Ready to learn more? Our local team is here to assist veterans, partners, and employers.</p>
+                <div class="contact-info" style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 30px; text-align: left;">
+                    <div>
+                        <h4>Location & Operation (Post Q3 CY26)</h4>
+                        <p><strong>Physical Address:</strong> [To be determined in Colorado Springs]</p>
+                        <p><strong>Operational Hours:</strong> Monday – Friday, 8:00 AM – 5:00 PM MST</p>
+                    </div>
+                    <div>
+                        <h4>Key Contacts</h4>
+                        <p><strong>Program Management:</strong> [Name and Title of Local Program Director]</p>
+                        <p><strong>Admissions & Eligibility:</strong> admissions@vets2pm.com</p>
+                        <p><strong>Partnerships & Media:</strong> partners@vets2pm.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <p>&copy; 2026 Vets2PM MPLW Colorado Springs. All Rights Reserved. Fully operational by Q3 CY26.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Re-using the mobile menu script from index.html
+        document.addEventListener('DOMContentLoaded', () => {
+            const mobileMenu = document.getElementById('mobile-menu');
+            const navbar = document.getElementById('navbar');
+            mobileMenu.addEventListener('click', () => {
+                navbar.classList.toggle('active');
+                mobileMenu.classList.toggle('open');
+            });
+        });
+    </script>
+</body>
+</html>
